@@ -97,7 +97,6 @@ This project implements a PDF invoice generator using **Ruby on Rails** and the 
 
 ![Generated Invoice](readmePhotos/generatedInvoice.png)
 
-## Future Improvement
 
 ## License
 
