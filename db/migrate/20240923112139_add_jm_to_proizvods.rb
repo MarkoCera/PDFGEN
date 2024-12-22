@@ -1,0 +1,5 @@
+class AddJmToProizvods < ActiveRecord::Migration[7.2]
+  def change
+    add_column :proizvods, :jm, :string
+  end
+end

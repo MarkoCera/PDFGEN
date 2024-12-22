@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: cera
+  password: 1312
+  host: localhost
+
+development:
+  <<: *default
+  database: ZAVRSNI
+
+test:
+  <<: *default
+  database: ZAVRSNI
+
+production:
+  <<: *default
+  database: ZAVRSNI
+  username: <%= ENV['cera'] %>
+  password: <%= ENV['1312'] %>

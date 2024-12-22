@@ -1,0 +1,27 @@
+<h2>Izaberite proizvode</h2>
+
+<%= form_with(url: select_proizvodi_index_path, method: :post, data: { turbo: false }) do |form| %>
+  <table>
+    <thead>
+      <tr>
+        <th>Izaberi</th>
+        <th>Šifra</th>
+        <th>Naziv</th>        
+        <th>Količina</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @proizvodi.each do |proizvod| %>
+        <tr>
+          <td><%= check_box_tag "proizvod_ids[]", proizvod.id %></td>
+          <td><%= proizvod.sifra %></td>
+          <td><%= proizvod.naziv %></td>
+          
+          <td><%= number_field_tag "kolicine[#{proizvod.id}]", 1, min: 1 %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <%= form.submit "Generiši Fakturu" %>
+<% end %>
+

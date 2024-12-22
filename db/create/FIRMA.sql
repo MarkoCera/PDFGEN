@@ -1,0 +1,9 @@
+CREATE TABLE FIRMA (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pib CHAR(9) NOT NULL UNIQUE,
+    naziv VARCHAR(100) NOT NULL,
+    adresa VARCHAR(100) NOT NULL,
+    telefon VARCHAR(20),
+    mail VARCHAR(50)
+);
+

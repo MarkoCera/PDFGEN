@@ -1,0 +1,31 @@
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/psych-5.1.2/ext/psych
+/usr/bin/ruby extconf.rb
+checking for pkg-config for yaml-0.1... [" ", "", "-lyaml"]
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-yugpg8 sitelibdir\=./.gem.20241031-1777-yugpg8 clean
+cd libyaml && make clean
+/bin/sh: line 1: cd: libyaml: No such file or directory
+make: [Makefile:283: clean-so] Error 1 (ignored)
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-yugpg8 sitelibdir\=./.gem.20241031-1777-yugpg8
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-yugpg8 sitelibdir\=./.gem.20241031-1777-yugpg8 install
+/usr/bin/install -c -m 0755 psych.so ./.gem.20241031-1777-yugpg8
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-yugpg8 sitelibdir\=./.gem.20241031-1777-yugpg8 clean
+cd libyaml && make clean
+/bin/sh: line 1: cd: libyaml: No such file or directory
+make: [Makefile:283: clean-so] Error 1 (ignored)

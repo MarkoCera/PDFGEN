@@ -1,0 +1,84 @@
+Naziv firme: "Metalni Konstrukti DOO"
+
+    PIB: 123456789
+    Adresa: ""Industrijska Zona 2, 11000 Beograd""
+    Kontakt: 011/2345-678, office@metalnikonstrukti.rs
+    ////
+Naziv firme: "Alatnica Jovanović DOO"
+
+    PIB: 987654321
+    Adresa: Ulica Majstora 15, 21000 Novi Sad
+    Kontakt: 021/6543-210, alatnica@jovanovic.rs
+
+    ///
+Naziv firme: "Gradjevinarstvo Savić DOO"
+
+    PIB: 456789123
+    Adresa: Građevinska 22, 34000 Kragujevac
+    Kontakt: 034/2233-444, info@gradjevinarstvo-savic.rs
+///////////////
+Naziv firme: "Beton Inženjering DOO"
+
+    PIB: 321654987
+    Adresa: Beton Grad 14, 26000 Pančevo
+    Kontakt: 013/1122-334, beton.inzenjering@beton.rs
+
+    3. Energentske kompanije
+////////////////////////
+Naziv firme: "Elektroenergetika DOO"
+        PIB: 654321987
+        Adresa: Energetska 10, 18000 Niš
+        Kontakt: 018/331-222, kontakt@elektroenergetika.rs
+
+Naziv firme: "Toplifikacija DOO"
+
+    PIB: 789123456
+    Adresa: Topla 5, 21000 Novi Sad
+    Kontakt: 021/555-777, info@toplifikacija.rs
+/////////////
+Naziv firme: "Auto-Moto Tehnika DOO"
+
+    PIB: 112233445
+    Adresa: Automobilska 8, 15000 Šabac
+    Kontakt: 015/123-456, tehnika@automoto.rs
+
+    /////
+
+Naziv firme: "TehnoMotor DOO"
+
+    PIB: 998877665
+    Adresa: Motorna 22, 12000 Požarevac
+    Kontakt: 012/876-543, tehnomotor@motor.rs
+/////////
+Naziv firme: "SoftLab DOO"
+
+    PIB: 445566778
+    Adresa: IT park 3, 11000 Beograd
+    Kontakt: 011/987-6543, kontakt@softlab.rs
+
+Naziv firme: "TechCode DOO"
+
+    PIB: 667788990
+    Adresa: Koderi Ulica 1, 21000 Novi Sad
+    Kontakt: 021/999-000, techcode@koder.rs
+
+Naziv firme: "Logistika Transport DOO"
+
+    PIB: 556677889
+    Adresa: Transportna 9, 25000 Sombor
+    Kontakt: 025/2233-444, info@logistikatransport.rs
+
+    ////////////////////////////////
+
+
+
+AL001	Alat za obradu metala	5,000.00	kom	Alati
+MA001	Mašina za zavarivanje	150,000.00	kom	Mašine
+MA002	Hidraulična presa	250,000.00	kom	Mašine
+MA003	CNC mašina	1,200,000.00	kom	Mašine
+AL002	Set preciznih alata	20,000.00	set	Alati
+AL003	Merni instrument	3,500.00	kom	Alati
+KO001	Ventili za industrijske sisteme	1,200.00	kom	Komponente
+MA004	Pumpa za tečnosti	50,000.00	kom	Mašine
+AL004	Opremanje radionice	100,000.00	komplet	Alati
+KO002	Komponente za automatizaciju	30,000.00	set	Komponente

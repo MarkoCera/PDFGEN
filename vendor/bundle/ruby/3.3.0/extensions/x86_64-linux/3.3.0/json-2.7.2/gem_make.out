@@ -1,0 +1,16 @@
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-e74zsu sitelibdir\=./.gem.20241031-1777-e74zsu clean
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-e74zsu sitelibdir\=./.gem.20241031-1777-e74zsu
+make: Nothing to be done for 'all'.
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-e74zsu sitelibdir\=./.gem.20241031-1777-e74zsu install
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20241031-1777-e74zsu sitelibdir\=./.gem.20241031-1777-e74zsu clean

@@ -1,0 +1,14 @@
+<h1>Lista Firmi</h1>
+
+<ul>
+  <% @firme.each do |firma| %>
+    <li>ID: <%= firma.id %> - <%= firma.naziv %></li>
+  <% end %>
+</ul>
+
+<h2>Izaberite firmu</h2>
+<%= form_with(url: firms_select_path, method: :post, data: { turbo: false }) do |form| %>
+  <%= form.label :id, "Unesite ID firme:" %>
+  <%= form.number_field :id, required: true %>
+  <%= form.submit "Izaberi" %>
+<% end %>

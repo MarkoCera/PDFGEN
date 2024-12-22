@@ -1,0 +1,18 @@
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240922-24074-oz4m7r sitelibdir\=./.gem.20240922-24074-oz4m7r clean
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240922-24074-oz4m7r sitelibdir\=./.gem.20240922-24074-oz4m7r
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240922-24074-oz4m7r sitelibdir\=./.gem.20240922-24074-oz4m7r install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240922-24074-oz4m7r
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240922-24074-oz4m7r sitelibdir\=./.gem.20240922-24074-oz4m7r clean

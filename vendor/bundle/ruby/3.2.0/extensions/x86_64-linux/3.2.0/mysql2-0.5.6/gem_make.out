@@ -1,0 +1,49 @@
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/mysql2-0.5.6/ext/mysql2
+/usr/bin/ruby extconf.rb
+checking for rb_absint_size()... yes
+checking for rb_absint_singlebit_p()... yes
+checking for rb_gc_mark_movable()... yes
+checking for rb_wait_for_single_fd()... yes
+checking for rb_enc_interned_str() in ruby.h... yes
+-----
+Using mysql_config at /sbin/mysql_config
+-----
+checking for mysql.h... yes
+checking for errmsg.h... yes
+checking for SSL_MODE_DISABLED in mysql.h... no
+checking for MYSQL_OPT_SSL_VERIFY_SERVER_CERT in mysql.h... yes
+checking for MYSQL_OPT_SSL_ENFORCE in mysql.h... yes
+checking for MYSQL.net.vio in mysql.h... no
+checking for MYSQL.net.pvio in mysql.h... yes
+checking for MYSQL_DEFAULT_AUTH in mysql.h... yes
+checking for MYSQL_ENABLE_CLEARTEXT_PLUGIN in mysql.h... yes
+checking for SERVER_QUERY_NO_GOOD_INDEX_USED in mysql.h... yes
+checking for SERVER_QUERY_NO_INDEX_USED in mysql.h... yes
+checking for SERVER_QUERY_WAS_SLOW in mysql.h... yes
+checking for MYSQL_OPTION_MULTI_STATEMENTS_ON in mysql.h... yes
+checking for MYSQL_OPTION_MULTI_STATEMENTS_OFF in mysql.h... yes
+checking for my_bool in mysql.h... yes
+checking for mysql_ssl_set() in mysql.h... yes
+-----
+Setting rpath to /usr/lib/
+-----
+creating Makefile
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/mysql2-0.5.6/ext/mysql2
+make DESTDIR\= sitearchdir\=./.gem.20240922-26288-vuftmc sitelibdir\=./.gem.20240922-26288-vuftmc clean
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/mysql2-0.5.6/ext/mysql2
+make DESTDIR\= sitearchdir\=./.gem.20240922-26288-vuftmc sitelibdir\=./.gem.20240922-26288-vuftmc
+compiling client.c
+compiling infile.c
+compiling mysql2_ext.c
+compiling result.c
+compiling statement.c
+linking shared-object mysql2/mysql2.so
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/mysql2-0.5.6/ext/mysql2
+make DESTDIR\= sitearchdir\=./.gem.20240922-26288-vuftmc sitelibdir\=./.gem.20240922-26288-vuftmc install
+/usr/bin/install -c -m 0755 mysql2.so ./.gem.20240922-26288-vuftmc/mysql2
+
+current directory: /home/cera/PDFGEN/vendor/bundle/ruby/3.2.0/gems/mysql2-0.5.6/ext/mysql2
+make DESTDIR\= sitearchdir\=./.gem.20240922-26288-vuftmc sitelibdir\=./.gem.20240922-26288-vuftmc clean
